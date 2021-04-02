@@ -1,3 +1,4 @@
+/*---header---*/
 @media only screen and (min-width: 450px) {
 	.product-wrapper {
 		width: 50%;
@@ -22,10 +23,6 @@ header{
   	width: auto;
   	padding-bottom: 0px;
 }
-a{
-	color: #fff;
-	text-decoration: none;
-}
 .top-bar{
   	display: flex;
   	flex-direction: row;
@@ -34,7 +31,13 @@ a{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 
+}
+.header-items a{
+    text-decoration: none;
+    color: #fff;
 }
 .header-items h2{
 	font-family: 'Open Sans', sans-serif;
@@ -82,11 +85,10 @@ a{
 	text-decoration: none;
 	color: #fff;
 }
-.call-name img{
-	width: 25%;
-	height: 25%;
-	margin: 10px 0px 0px 0px;
-	margin-right: 15px
+.fa-chevron-down{
+    color: #fff;
+    margin: 10px 0px 0px 0px;
+    margin-right: 15px
 }
 .call h4{
 	color: #fff;
@@ -107,29 +109,29 @@ a{
 }
 .city-name span{
 	width: 100%;
-	margin: 3px 0px 0px 0px;
+	margin: 7px 0px 0px 0px;
 	margin-right: 0px;
 }
-.city-name img{
-	width: 14%;
-	height: 14%;
-	margin: 6px 0px 0px 0px;
+.city-name i{
+	margin: 10px 0px 0px 10px;
 	margin-right: 15px
 }
-.map-marker{
-	width: 35px;
-	height: 35px;
-	margin-left: 20px;
+.fa-map-marker-alt{
+	font-size: 24px;
+	margin-left: 25px;
+    color: #fff;
+    margin-bottom: 10px;
 }
 .basket{
 	margin-left: 25px;
 	display: flex;
 	flex-direction: column;
 }
-.basket img{
-	width: 35px;
-	height: 35px;
+.basket i{
+    font-size: 24px;
 	margin-left: 5px;
+    color: #fff;
+    margin-bottom: 10px;
 }
 .basket{
 	height: auto;
@@ -184,12 +186,10 @@ a{
 	border-radius: 12px;
 }
 .lines{
-	padding: auto;
 	margin: 13px 0px 5px 7px;
 	position: relative;
 }
 .bar{
-	padding: auto;
 	border-style: solid;
 	border-color: #fff;
 	border-width: 1px;
@@ -200,6 +200,8 @@ a{
     margin: 10px 0;
 
 }
+/*---end-header---*/
+/*---footer---*/
 .footer{
 	background-color: #339966;
 }
@@ -240,6 +242,7 @@ a{
 }
 .footer-lists p{
 	margin-left: 10px;
+    padding-top: 15px;
 }
 .head-footer{
 	font-weight: 700;
@@ -254,10 +257,10 @@ a{
 	width: 45px;
 	border-radius: 10px 0px 0px 10px;
 }
-.button-img img{
-	width: 30px;
-	height: 30px;
+.button-img i{
+	font-size: 24px;
 	margin-top: 8px;
+    color: #339966;
 }
 .email-footer{
 	display: flex;
@@ -296,11 +299,12 @@ a{
 .social li{
 	margin-right: 15px;
 }
-.social img{
-	border-radius: 50%;
-	padding: 5px;
-	width: 60%;
-	height: 60%;
+.social i{
+    font-size: 24px;
+}
+.social a{
+    color: #fff;
+    opacity: 100%;
 }
 .yandex img{
 	background-color: transparent;
@@ -331,7 +335,7 @@ a{
 	height: 80%;
 	width: 80%;
 }
-
+/*---end-footer---*/
 body{
 	background-color: #EEEEEE;
 	font-family: 'Open Sans', sans-serif;
@@ -363,6 +367,9 @@ body{
 	color: #616161;
 	margin-top: 45px; 
 }
+.catalog-list{
+    margin-left: 10px;
+}
 .catalog-list ul{
 	display: flex;
 	flex-direction: row;
@@ -381,4 +388,23 @@ body{
 	width: inherit;
 	background-color: #D8D8D8;
 	margin-bottom: 30px;
-} 
+}
+.buttons{
+    margin-left: 40px;
+}
+.buttons button{
+    border-radius: 15px;
+    background-color: transparent;
+    border-width: 1px;
+    border-color: #E1E1E1;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+}
+.fa-exchange-alt{
+    transform: rotate(90deg);
+}
+.popular{
+    margin-left: 750px;
+}
+.container{
+}
