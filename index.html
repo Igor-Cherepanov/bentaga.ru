@@ -14,9 +14,9 @@
 <header>
 	<nav>
 		<ul class="nav-items">
-			<li><a href="">Доставка</a></li>
+			<li><a href="delivery.html">Доставка</a></li>
 			<li><a href="payment.html">Оплата</a></li>
-			<li><a href="">Гарантия</a></li>
+			<li><a href="guarantee.html">Гарантия</a></li>
 			<li><a href="contacts.html">Контакты</a></li>
 		</ul>
 	</nav>
@@ -30,7 +30,10 @@
 				</div>
 			</div>
 			<h2><a href="index.html">BENTAGA</a></h2>
-			<input type="text" value="Я ищу...">
+			<div class="input-group mb-3 header-input">
+				<input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+			</div>
+			<!--<input type="text" placeholder="Я ищу...">-->
 			<div class="call">
 				<h4>+7 (495) 960-95-35</h4>
 				<div class="call-name">
@@ -463,10 +466,12 @@
 		</ul>
 		<ul>
 			<li class="head-footer">Подпишитесь на рассылку</li>
-			<li class="email-footer">
-				<input type="text" value="Ваш e-mail">
-				<button>Отправить</button>
-			</li>
+			<div class="input-group mb-3">
+				<input type="text" class="form-control" placeholder="Ваш e-mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+				<div class="input-group-append">
+					<button class="btn btn-outline-secondary" type="button">Отправить</button>
+				</div>
+			</div>
 			<li class="head-footer">Присоединяйтесь</li>
 			<li>
 				<ul class="social">
