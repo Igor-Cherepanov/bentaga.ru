@@ -30,7 +30,6 @@ header{
 .header-items{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 	justify-content: center;
 	align-items: center;
 
@@ -204,12 +203,41 @@ header{
 body {
   font-size: 14px;
 }
+.carousel-inner{
+	background-color: #F3FFF9;
+}
+.carousel-indicators{
+}
+.carousel-indicators li{
+	background-color: #DCDCDC;
+	opacity: 100%;
+}
+.carousel{
+	width: 100%;
+	height: 100%;
+}
+.carousel-control-prev{
+	position: absolute;
+	margin-right: 100px;
+}
+.carousel-control-prev i{
+	font-size: 24px;
+	color: #000;
+}
+.carousel-control-next i{
+	font-size: 24px;
+	color: #000;
+}
+.active li{
+	background-color: #339966;
+}
 .home-categories{
 	margin: 40px;
 }
 .category{
 	margin: 0px 0px 0px 0px;
 	margin-bottom: 20px;
+	margin-left: 100px;
 	border-radius: 40px;
 	text-align: center;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
@@ -252,14 +280,17 @@ body {
 	flex-direction: column;
 }
 .home-slider{
-	background-color: #F3FFF9;
-	margin-left: 40px;
-	margin-right: 40px;
-	margin-top: 30px;
+	display: flex;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 40px;
+
+}
+.carousel-inner{
 	border-radius: 20px;
-	padding-top: 20px;
-	padding-bottom: 50px;
-	display: inline-flex;
+}
+.carousel-control-prev{
+	margin-right: 50px;
 }
 .slider-text{
 	margin-left: 50px;
@@ -353,7 +384,7 @@ body {
 .ar-left{
 	vertical-align: middle;
 	position: relative;
-	margin-top: 150px; 
+	margin-top: 150px;
 	background-color: transparent;
 	border-style: none;
 	margin-right: 5px;
@@ -367,7 +398,7 @@ body {
 .ar-right{
 	vertical-align: middle;
 	position: relative;
-	margin-top: 150px; 
+	margin-top: 150px;
 	background-color: transparent;
 	border-style: none;
 	margin-left: 750px;
