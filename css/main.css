@@ -3,26 +3,17 @@
 	.product-wrapper {
 		width: 50%;
 	}
-	header{
-		width: 50%;
-	}
 }
 
 @media only screen and (min-width: 768px) {
 	.product-wrapper {
 		width: 33.333%;
 	}
-	header{
-		width: 33%;
-	}
 }
 
 @media only screen and (min-width: 1000px) {
 	.product-wrapper {
 		width: 25%;
-	}
-	header{
-		width: 33%;
 	}
 }
 header{
@@ -58,11 +49,11 @@ header{
 	margin-right: 25px;
 	margin-left: 20px;
 }
-.header-input input{
+.header-items input{
 	background-color: #76BB98;
 	color: #F8FCFA;
-	width: 100%;
-	height: 47px;
+	width: 600px;
+	height: 50px;
 	border-style: solid;
 	border-color: #76BB98;
 	border-width: 1px;
