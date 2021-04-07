@@ -246,6 +246,7 @@ body{
             -15px 0 20px -23px rgba(0, 0, 0, .8),
             15px 0 20px -23px rgba(0, 0, 0, .8),
             0 0 0 rgba(0, 0, 0, .1) inset;
+    margin-bottom: 50px;
 }
 .head-block{
     background: linear-gradient(90deg, #4FD090, #00A854);
@@ -279,14 +280,14 @@ body{
     align-self: center;
     position: absolute;
     z-index: 1;
-    top: 375px;
+    top: 900px;
     margin-left: 40px;
 }
 .grid-item{
     border-radius: 15px;
-    margin-right: 25px;
+    margin-right: 70px;
     height: 200px;
-    width: 300px;
+    width: 375px;
     border-style: solid;
     border-color: #fff;
     background-color: #fff;
@@ -294,7 +295,7 @@ body{
     padding-left: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
-.grid-item h2{
+.grid-item h4{
     font-weight: bold;
     color: #000;
 }
@@ -303,130 +304,37 @@ body{
     color: #6A6A6A;
 }
 .grid-item img{
-    width: 25%;
-    height: 25%;
+    width: 35%;
+    height: 35%;
+    margin-right: 30px;
 }
 .free-delivery h1{
     margin-top: 50px;
     margin-left: 40px;
 }
-.deliv-list{
-    margin-left: 40px;
-    padding: 0;
-}
-.deliv-list li{
-    display: inline-block;
-    margin-right: 100px;
-    margin-bottom: 30px;
-}
-.deliv-list ul{
-    padding: 0;
-}
-.deliv-list h4{
-    font-weight: bold;
-}
-.deliv-list span{
-    color: #6A6A6A;
-}
-.line-1{
+.line{
     height: 1px;
     width: 85vw;
     background-color: #B9B9B9;
-    margin: 30px 40px;
+    margin: 20px 40px;
 }
-.table-block{
-    background: linear-gradient(90deg, #4FD090, #00A854);
-    height: 250vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 0;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    padding: 0 0 20px;
-}
-.table-block h1{
-    margin-top: 70px;
-    margin-bottom: 10px;
+.guarantee h1{
+    margin-top: 50px;
     margin-left: 40px;
-    font-weight: 700;
+    font-weight: bold;
 }
-.content{
-    display: flex;
-    flex-direction: row;
+.guarantee p{
+    margin-left: 40px;
 }
-.left-content li{
-    list-style: none;
-    font-size: 16px;
-    margin-top: 20px;
-}
-.right-content{
-    display: flex;
-    flex-direction: row;
-    margin-right: 20px;
+.guarantee ul{
     margin-left: 20px;
 }
-.line-2{
-    height: 1px;
-    width: 40vw;
-    background-color: #B9B9B9;
-    margin: 30px 40px;
-}
-.table{
+.guarantee h6{
     margin-left: 40px;
-    margin-right: 40px;
-}
-.table h4{
-    margin-top: 50px;
     font-weight: bold;
 }
-.table-wrapper{
-    display: flex;
-    flex-direction: column;
-    color: #000;
-    margin-left: 15px;
-}
-.row{
-    display: flex;
-    flex-direction: row;
-}
-.row-item{
-    display: flex;
-    background-color: #EFEFEF;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    margin-right: 20px;
-    width: 15vw;
-    margin-bottom: 20px;
-    padding: 20px;
-    align-items: center;
-    justify-items: center;
-}
-.header-row-item{
-    background-color: #fff;
-    font-weight: bold;
-}
-.main-row-item{
-    width: 38vw;
-}
-.last-row-item{
-    background-color: #339966;
-    font-weight: bold;
-    color: #fff;
-}
-.last-main-row-item{
-    width: 55vw;
-}
-.last-list ul{
-    margin-left: 20px;
-    margin-top: 50px;
-    margin-right: 20px;
-}
-.last-list h1{
-    font-weight: bold;
-}
-.last-list li{
-    margin-bottom: 15px;
+.guarantee li{
+    margin-top: 10px;
 }
 .note-block{
     background-color: #F8F8F8;
@@ -445,12 +353,45 @@ body{
     margin: 0;
     padding: 0;
 }
-.gray-block-last{
-    background-color: #EFEFEF;
-    padding: 0;
-    height: 50px;
+.last-block p{
+    margin-left: 40px;
+}
+.last-block ul{
+    margin-left: 20px;
+}
+.last-block li{
+    margin-top: 10px;
+}
+.last-block h6{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.button-block{
+    background-color: #F8F8F8;
     display: flex;
-    margin: 0;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    margin: 40px;
+    flex-direction: column;
+    text-align: center;
+}
+.button-block h4{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.button-block h5{
+    margin-bottom: 20px;
+}
+.button-block button{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #339966;
+    color: #fff;
+    font-weight: 400;
 }
 /*---footer---*/
 .footer{

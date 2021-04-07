@@ -392,25 +392,24 @@ body{
 	width: 1200px;
 	background-color: #A7A7A7;
 }
-.quality{
-	margin-top: 30px;
-	margin-right: 30px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.button-block{
 	background-color: #F8F8F8;
-	border-radius: 10px;
-	padding-bottom: 20px;
-}
-.quality h4{
-	font-size: 22px;
-	margin-bottom: 5px;
-}
-.quality p{
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	padding: 20px;
+	margin: 40px;
+	flex-direction: column;
 	text-align: center;
 }
-.quality button{
+.button-block h4{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.button-block h5{
+	margin-bottom: 20px;
+}
+.button-block button{
 	width: 250px;
 	height: 40px;
 	border-radius: 5px;
