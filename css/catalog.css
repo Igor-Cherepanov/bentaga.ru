@@ -406,5 +406,46 @@ body{
 .popular{
     margin-left: 750px;
 }
-.container{
+.shipments{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+.shipment-row{
+	display: flex;
+	flex-direction: row;
+}
+.shipment{
+	width: 225px;
+	height: 250px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.product-photo{
+	background: no-repeat center url("../img/catalog/sofa1.svg");
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	display: flex;
+}
+.product-photo i{
+	display: flex;
+	align-self: flex-start;
+	margin-left: 150px;
+}
+.sell-rectangle{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	background-color: #339966;
+	border-radius: 8px;
+	width: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 2px 0;
+	position: absolute;
+	margin-bottom: 100px;
 }
