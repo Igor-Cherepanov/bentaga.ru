@@ -497,3 +497,32 @@ body{
 .rating span{
 	color: #797979;
 }
+.text-block{
+	margin-bottom: 75px;
+}
+.text-block ul{
+	list-style: none;
+}
+.text-block li{
+	margin-bottom: 15px;
+}
+.pages{
+	margin-top: 50px;
+	margin-bottom: 100px;
+	position: relative;
+}
+.next-page{
+	position: absolute;
+	bottom: 15px;
+	left: 1135px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-self: right;
+	align-content: center;
+	align-self: end;
+}
+.next-page a{
+	text-decoration: none;
+	color: #000000;
+}
